@@ -1,0 +1,139 @@
+/* Importando a fonte usada na outra página */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Resetando estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo básico da página */
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+    font-size: 100%;
+    background-image: url("../IMG/img2.jpg");
+    background-size: contain;
+    background: no-repeat center/150% url("../IMG/img2.jpg");
+}
+
+/* Estilo da container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px 5px;
+    max-width: 800px;
+    margin: auto;
+    background: #88a6bb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos títulos */
+h1, h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Estilo de botões */
+a.button, .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+.btn.animate-btn {
+    animation: animate-outline 1s ease-out infinite;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid #4f9bf98a;
+    }
+    to {
+        outline: 15px solid #4f9bf900;
+    }
+}
+
+/* Estilos da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #0000008a;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+/* Estilos do header e navegação */
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+nav ul a:not(.btn):after {
+    content: "";
+    background-color: black;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* Resetando estilos */
+* {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Fundo e corpo da página */
+body {
+    font-size: 100%;
+    background-image: url("../IMG/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Formulário de Adicionar Jogo */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+#form-title {
+    font-family: 'Arial', cursive;
+    font-size: 32px;
+    color: #FFF2E7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #FFF2E7;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: rgb(123, 123, 123);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Link de Voltar */
+#back-link {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #208ccf;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#back-link:hover {
+    background-color: #1e7ac5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    ul.ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    #form-title {
+        font-size: 28px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    form input {
+        font-size: 14px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+
+    #back-link {
+        font-size: 14px;
+    }
+}
