@@ -45,38 +45,8 @@
 
                 <tr>
                     <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
-                </tr>
-
-                <tr>
-                    <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
-                </tr>
-
-                <tr>
-                    <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
-                </tr>
-
-                <tr>
-                    <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
-                </tr>
-
-                <tr>
-                    <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
-                </tr>
-
-                <tr>
-                    <th>25/11/2024</th>
-                    <th>Infor 3 X Eletro 3</th>
-                    <th>3 X 1</th>
+                    <th>Infor 3 X ADM 2</th>
+                    <th>3 X 3</th>
                 </tr>
             </thead>
             <tbody>
